@@ -1,0 +1,32 @@
+.work__container{
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 2.5rem;
+}
+
+.work__places{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    
+}
+
+
+.work__details{
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border:1px solid transparent;
+    text-align: left;
+    transition: var(--transition);
+}
+
+.work_places:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+li{
+    font-size: 75%;
+}
