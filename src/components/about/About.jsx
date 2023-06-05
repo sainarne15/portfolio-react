@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/ME-remove.png';
+import ME from '../../assets/ME.jpg';
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
@@ -43,7 +43,7 @@ const About = () => {
           </div>
 
           <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          Motivated software developer seeking entry-level roles. Skilled in developing and deploying web applications using industry best practices. Proven ability to work collaboratively in cross-functional teams and communicate effectively with stakeholders. Strong problem-solving and analytical skills, with a passion for creating innovative solutions to complex challenges. Continuously learning and staying up-to-date with emerging technologies to enhance productivity and create exceptional user experiences.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Connect</a>
         </div>

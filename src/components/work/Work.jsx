@@ -14,29 +14,27 @@ const Work = () => {
 
   
           <article className="work__details">
-            <p>University Of Houston</p>
+            <p>University Of Houston </p> <small className='text-light'>01/2023 - 05/2023</small>
             <h5>Teaching Assistant</h5>
             <ul >
-              <li>Responsible for two courses with 30 students; duties include grading assignments, providing feedback to the students and
-offering additional support via emails.</li>
-              <li>Aiding in the revision of the class notes and giving guest lectures on machine learning-related topics.</li>
+              <li>Responsible for two courses, SCLT 6320 Procurement Strategies and SCLT 6397 Urban Informatics for Logistics Management with 40 students; duties include grading assignments, providing feedback to the students and offering additional support via emails.</li>
+              <li>Aiding in the revision of the class notes, preparing grading criteria and delivering guest lectures on machine learning related topics.
+</li>
             </ul>
           </article>
     
   
           <article className="work__details">
-            <p>University of Houston</p>
+            <p>University of Houston </p> <small className='text-light'>09/2022 - 05/2023</small>
             <h5>Research Assistant</h5>
             <ul >
-              <li>Implemented Machine Learning models in Python, including logistic regression, SVM, RF, GB, ELM, and neural
-networks, to uncover the non-linear relationship between several socio-demographic factors and the teenagers acquisition
-of driver’s license for millennials and their succeeding generation.</li>
-              <li>Assisting in research on the same topic and working on publishing the work.</li>
+              <li>Implemented Machine Learning models in Python, including logistic regression, SVM, RF, GB, Extreme Learning Machine, and neural networks, to uncover the non-linear relationship between several socio-demographic factors and the teenager's acquisition of driver’s license for millennials and their succeeding generation's.</li>
+              <li>Assisted in conducting research on the same topic and contributed to preparing the initial draft for the work.</li>
             </ul>
 
           </article>
           <article className="work__details">
-            <p>Cognizant</p>
+            <p>Cognizant</p> <small className='text-light'>02/2021 - 06/2021</small>
             <h5>Programmer Analyst Trainee</h5>
             <ul >
               <li>Trained and worked in ASP.NET Framework, and developed an application with micro services using the ASP.NET Core
@@ -48,6 +46,7 @@ entire process of loading the latest build code and test files.</li>
           </article>
           <article className="work__details">
             <p>Cognibot</p>
+            <small className='text-light'>04/2020 - 05/2020</small>
             <h5>Intern</h5>
             <ul>
               
