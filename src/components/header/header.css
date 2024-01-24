@@ -39,31 +39,63 @@ header{
 
 
 /*============== ME ===============*/
-.me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+.ME{
+    background:  transparent;
+    width: 10rem;
+    height: 10rem;
     position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    left: calc(50% - 20rem);
+    margin-top: 10rem;
+    /*border-radius: 12rem 12rem 0 0; */
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
     
     
 }
 
-
-/*====================Scroll down ===================*/
-.scroll__down{
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-
+.badges__container {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
 }
+
+/* Individual badges */
+.az900,
+.terraform,
+.aws {
+    background: transparent;
+    width: 10rem;
+    height: 10rem;
+    /* You can keep other badge styles as you prefer */
+}
+
+/* ======= badges ================== */
+
+
+/* Container for the image row */
+.image-row {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: flex-end; /* Align the images to the bottom */
+  }
+  
+  /* Style for individual images */
+  .image-item {
+    margin: 100px 75px; /* Add margin to separate images */
+    transition: transform 0.2s ease; /* Add a smooth transition effect */
+  }
+  
+  /* Hover effect to zoom in the image */
+  .image-item:hover {
+    transform: scale(1.2); /* Increase the scale for zoom effect */
+  }
+  
+  
+  .image1 {
+    max-width: 150px;
+    height: 150px;
+  }
 
 
 /* ========= MEDIA Queries (Medium Devices) ========== */
@@ -78,7 +110,7 @@ header{
 
 /* ========= MEDIA Queries (Small Devices) ========== */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
     header{
         height: 100vh;
@@ -87,4 +119,8 @@ header{
     .scroll__down{
         display: none;
     }
+    .image-item {
+        margin: 75px 10px;
+        flex: 0 0 30%; /* Full width on smaller screens */
+      }
 }

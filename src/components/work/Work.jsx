@@ -17,8 +17,8 @@ const Work = () => {
             <p>University Of Houston </p> <small className='text-light'>01/2023 - 05/2023</small>
             <h5>Teaching Assistant</h5>
             <ul >
-              <li>Responsible for two courses, SCLT 6320 Procurement Strategies and SCLT 6397 Urban Informatics for Logistics Management with 40 students; duties include grading assignments, providing feedback to the students and offering additional support via emails.</li>
-              <li>Aiding in the revision of the class notes, preparing grading criteria and delivering guest lectures on machine learning related topics.
+              <li>•	Instructed 2 courses, SCLT 6320 Procurement Strategies and SCLT 6397 Urban Informatics for Logistics Management with 40 students; duties include grading assignments, providing feedback to the students and offering additional support via emails.</li>
+              <li>•	Aided in the revision of the class notes, prepared grading criteria, delivered 2 guest lectures on applications of machine learning in supply chain and logistics, enhancing students' coding proficiency and resulting in a 25% performance improvement.
 </li>
             </ul>
           </article>
@@ -28,8 +28,14 @@ const Work = () => {
             <p>University of Houston </p> <small className='text-light'>09/2022 - 05/2023</small>
             <h5>Research Assistant</h5>
             <ul >
-              <li>Implemented Machine Learning models in Python, including logistic regression, SVM, RF, GB, Extreme Learning Machine, and neural networks, to uncover the non-linear relationship between several socio-demographic factors and the teenager's acquisition of driver’s license for millennials and their succeeding generation's.</li>
-              <li>Assisted in conducting research on the same topic and contributed to preparing the initial draft for the work.</li>
+              <li>•	Investigated socio-demographic factors and teenage driver's license acquisition patterns for Millennials and Gen Z with a team 
+      of 3 professors. 
+</li>
+              <li>•	Implemented a variety of Machine Learning models in Python, including logistic regression, SVM , Random Forest, Gradient –
+      Boosting, Extreme Learning Machines, and neural networks, achieved an average accuracy improvement of 10%. 
+</li>
+              <li>•	Contributed to research, achieving a model accuracy of 89% after tuning and dataset balancing, also drafted the initial research paper.
+</li>
             </ul>
 
           </article>
@@ -37,11 +43,14 @@ const Work = () => {
             <p>Cognizant</p> <small className='text-light'>02/2021 - 06/2021</small>
             <h5>Programmer Analyst Trainee</h5>
             <ul >
-              <li>Trained and worked in ASP.NET Framework, and developed an application with micro services using the ASP.NET Core
-MVC and Entity Framework, ASP.NET Core Web API, Postman API and testing frameworks such as NUnit, Moq etc.</li>
-              <li>Utilized Microsoft Azure DevOps to host the web APIs and used continuous integration service in order to automate the
-entire process of loading the latest build code and test files.</li>
-              <li>Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.</li>
+              <li>•	Developed a scalable application with a microservices architecture using Entity Framework, ASP.NET Core Web API, Postman API 
+and Microsoft SQL Server Database; optimized data retrieval, resulting in a 30% decrease in query execution time.
+</li>
+              <li>•	Utilized Microsoft Azure Logic Apps to host 4 web APIs and used continuous integration service in order to automate the entire
+process of loading the latest build code and test files.
+</li>
+              <li>•	Leveraged NUnit and Moq to develop comprehensive mock Web APIs, streamlining the process of interacting with targeted web page elements; significantly improved testing accuracy and reduced bug discovery time by 40%. 
+</li>
             </ul>
           </article>
           <article className="work__details">

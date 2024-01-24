@@ -13,74 +13,7 @@ const Experience = () => {
         <div className="experience__frontend">
           {/* <h3>Frontend Development</h3> */}
            <div className="experience__content">
-
            <article className="experience__details">
-              <BsFillPatchCheckFill className='experience__details_icon'/>
-              <div><h4>HTML</h4>
-              {/* <small className='text-light'>Experienced</small> */}
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className='experience__details_icon'/>
-              <div>
-              <h4>CSS</h4>
-              {/* <small className='text-light'>Intermediate</small> */}
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className='experience__details_icon'/>
-              <div>
-              <h4>JavaScript</h4>
-              {/* <small className='text-light'>Intermediate</small> */}
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className='experience__details_icon'/>
-              <div>
-              <h4>React</h4>
-              {/* <small className='text-light'>Intermediate</small> */}
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className='experience__details_icon'/>
-              <div>
-              <h4>Bootstrap</h4>
-              {/* <small className='text-light'>Intermediate</small> */}
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className='experience__details_icon'/>
-              <div>
-              <h4>Python</h4>
-              {/* <small className='text-light'>Intermediate</small> */}
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className='experience__details_icon'/>
-              <div>
-              <h4>ASP.NET CORE</h4>
-              {/* <small className='text-light'>Intermediate</small> */}
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className='experience__details_icon'/>
-              <div>
-              <h4>ASP.NET CORE MVC</h4>
-              {/* <small className='text-light'>Intermediate</small> */}
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className='experience__details_icon'/>
-              <div>
-              <h4>ASP.NET CORE WEB API</h4>
-              {/* <small className='text-light'>Intermediate</small> */}
-              </div>
-            </article>
-
-            <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details_icon'/>
               <div>
               <h4>C</h4>
@@ -119,6 +52,73 @@ const Experience = () => {
               {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
+           
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>Python</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div><h4>HTML</h4>
+              {/* <small className='text-light'>Experienced</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>CSS</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>JavaScript</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>React</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>Bootstrap</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>ASP.NET CORE</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>Jenkins</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>Docker</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+
+           
 
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details_icon'/>
@@ -132,6 +132,35 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details_icon'/>
               <div>
               <h4>Microsoft SQL Server</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>Azure</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>AWS</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>Terraform</h4>
+              {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details_icon'/>
+              <div>
+              <h4>AI/ML</h4>
               {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>

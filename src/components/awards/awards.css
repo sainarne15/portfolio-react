@@ -1,0 +1,27 @@
+.container.education__container{
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 2.5rem;
+}
+
+.awards__places{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    
+}
+
+
+.awards__details{
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    border:1px solid transparent;
+    transition: var(--transition);
+    
+}
+
+.awards_details:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}

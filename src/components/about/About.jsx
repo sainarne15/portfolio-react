@@ -43,7 +43,7 @@ const About = () => {
           </div>
 
           <p>
-          Motivated software developer seeking entry-level roles. Skilled in developing and deploying web applications using industry best practices. Proven ability to work collaboratively in cross-functional teams and communicate effectively with stakeholders. Strong problem-solving and analytical skills, with a passion for creating innovative solutions to complex challenges. Continuously learning and staying up-to-date with emerging technologies to enhance productivity and create exceptional user experiences.
+          A recent graduate with a Master of Science in Computer Science, equipped with a diverse skill set encompassing web application development, machine learning, and cloud computing. Actively seeking an entry-level position in the development field to leverage technical expertise, problem-solving abilities, and a collaborative mindset for contributing to innovative projects and continuing professional growth as a developer.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Connect</a>
         </div>
